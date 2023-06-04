@@ -16,6 +16,7 @@ const DetailsCard = () => {
               height="50"
               layout="fixed"
               objectFit="cover"
+              alt=""
         />
        
         </div>
@@ -34,6 +35,7 @@ const DetailsCard = () => {
               height="50"
               layout="fixed"
               objectFit="cover"
+              alt="success-dtory"
         />
         
         </div>
@@ -58,10 +60,11 @@ const DetailsCard = () => {
         <div className="icon">
         <Image
               src="/eth-img.svg"
-              width="50"
-              height="50"
+              width={"50"}
+              height={"50"}
               layout="fixed"
               objectFit="cover"
+              alt="ethereum"
         />
 
         </div>
@@ -84,10 +87,12 @@ const DetailsCard = () => {
       <div className="image">
       <Image
               src="/event-photo-1.jpg"
-              width="100%"
-              height="70%"
+              width={"100"}
+              height={"70"}
+              className="w-full"
               layout="responsive"
               objectFit="cover"
+              alt="event-photo-1.jpg"
             />
             
         {/* <img src="./images/kobby-mendez-d0oYF8hm4GI-unsplash.jpg" alt="img" /> */}

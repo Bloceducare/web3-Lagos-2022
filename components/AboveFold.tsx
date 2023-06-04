@@ -25,9 +25,9 @@ const AboveFold = () => {
         <div className="flex justify-center text-xl" >
           <div>
             <button className="p-2 px-8 bg-red-500 rounded-sm">
-              <Link href="/apply/registration">
-              Register
-              </Link>
+              <a href="https://event.web3bridge.com/" target="_blank">
+              Web3Lagos Conference 2
+              </a>
               </button>
           </div>
        
@@ -56,7 +56,7 @@ const AboveFold = () => {
         </div>
         <div className="text-2xl font-bold">
 
-          <div className="flex items-center mb-3 mr-3 text-sm text-red-500">Attendees
+          {/* <div className="flex items-center mb-3 mr-3 text-sm text-red-500">Attendees
             <BsFillPeopleFill className="ml-2 text-2xl" />
           </div>
           <div className="text-center text-blue-c1 ">
@@ -69,11 +69,11 @@ const AboveFold = () => {
                 total
             }
 
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
-<DateCountDown className="mx-auto mt-10 text-center md:-mt-24"/>
+{/* <DateCountDown className="mx-auto mt-10 text-center md:-mt-24"/> */}
 
 
 
